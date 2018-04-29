@@ -1,0 +1,57 @@
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    background-color: grey;
+    width: 100%;
+    z-index: -1;
+}
+
+.header{
+    width: 960px;
+    margin:auto;
+}
+
+
+.headbutt{
+    float: right;
+
+
+}
+
+#headbutt1,
+#headbutt2,
+#headbutt3{
+    text-decoration: none;
+
+}
+
+
+
+.myname{
+    float: left;
+}
+
+.content{
+    clear: both;
+    width: 960px;
+    margin: auto;
+    z-index: -2;
+    position: relative;
+    top: 100px;
+    margin-bottom: 70px
+}
+
+#mepic{
+    float: left
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: grey;
+    width: 100%;
+    z-index: -1;
+    text-align: center;
+}
