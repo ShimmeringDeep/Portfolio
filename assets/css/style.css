@@ -28,9 +28,9 @@ a:link{
 }
 
 .myname{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 40pt;
-    letter-spacing: 2px;
+    letter-spacing: 15px ;
     position: relative;
     top: 43px;
     color: lightgray;
@@ -42,6 +42,7 @@ a:link{
     top: 73px;
     z-index: 0;
     background-color: teal;
+    letter-spacing: 2px
 }
 
 #headbutt1:hover,
@@ -83,7 +84,8 @@ padding: 5px
 
 #about{
     color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
     font-size: 26pt;
     width: 860px;
     margin: auto;
