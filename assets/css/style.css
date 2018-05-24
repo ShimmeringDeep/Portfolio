@@ -21,6 +21,13 @@ a:link{
     text-decoration: none
 }
 
+#idiots{
+    color: lightgray
+}
+
+#idiots:hover{
+    color: grey;
+}
 .header{
     width: 960px;
     margin:auto;
@@ -211,4 +218,75 @@ footer{
     border-top-style: solid;
     border-top-color: orange;
     border-top-width: 3px
+}
+
+a:visited{
+    color: lightgray;
+}
+
+a:hover{
+    color: grey
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .header{
+    Width: 100%;
+    text-align:center;
+}
+
+header{
+    height: 196px;
+}
+
+.myname,.headbutt{
+    float: none;
+    clear:both;
+    position: relative 0;
+}
+
+.myname{
+    font-size:50pt;
+}
+
+.content{
+    width: 90%;
+    margin-top: 220px;
+}
+
+#about{
+    font-size: 44pt
+}
+.headbutt{
+    font-size:32pt;
+    width:100%;
+}
+
+.portimg{
+  height: 400px;
+  width: 400px;
+}
+
+.porttext{
+    width: 400px;
+    font-size: 40px;
+}
+
+.portpic1, .portpic2, .portpic3, .portpic4, .portpic5{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 15px
+}
+form{
+    font-size: 40pt;
+}
+
+input[type=text], textarea{
+    width: 70%;
+    height:auto;
+    font-size: 30pt;
+}
+
+input[type=submit]{
+    font-size: 28pt
+}
 }
