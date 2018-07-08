@@ -1,6 +1,8 @@
 /* 
 font-family: 'Questrial', sans-serif;
 font-family: 'EB Garamond', serif; 
+font-family: 'Montserrat', sans-serif;
+
 */
 
 *{
@@ -41,9 +43,9 @@ a:link{
 }
 
 .myname{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40pt;
-    letter-spacing: 10px ;
+    letter-spacing: 1px ;
     position: relative;
     top: 55px;
     color: lightgray;
@@ -75,7 +77,8 @@ padding: 5px
 #headbutt2,
 #headbutt3{
     border-left: darkgray;
-    border-style: solid;
+    border-left-style: solid;
+    border-width: thin;
 }
 
 
@@ -155,7 +158,9 @@ p{
     line-height: 2;
     font-family: 'Questrial', sans-serif;
 }
-
+.links{
+    font-family: 'Questrial', sans-serif;
+}
 input[name=message]{
     width: 500px;
     height: 300px;
@@ -231,17 +236,18 @@ header{
     width:100%;
 }
 
-.portimg{
-  height: 400px;
-  width: 400px;
-}
+
 
 .porttext{
-    width: 400px;
-    font-size: 40px;
+    width: 220px;
+    font-size: 20px;
 }
 
-
+.portimg{
+    height:220px;
+    width: 220px;
+    z-index: 9;
+}
 form{
     font-size: 40pt;
 }
