@@ -26,8 +26,12 @@ header{
 
 a:link{
     text-decoration: none;
+    color: whitesmoke;
 }
 
+a:visited{
+    color: lightgrey
+}
 
 #idiots{
     color: lightgray
